@@ -7,7 +7,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24">
+    <owl:Ontology rdf:about="http://purl.org/caeda2/ontology">
         <owl:versionIRI rdf:resource="http://purl.org/caeda2/ontology"/>
         <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:versionInfo>0.0.1</owl:versionInfo>
@@ -43,23 +43,23 @@
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temEstado -->
+    <!-- http://purl.org/caeda2/ontology#temEstado -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temEstado">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temIdeb"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#IDEB"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#Estado"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/caeda2/ontology#temEstado">
+        <owl:inverseOf rdf:resource="http://purl.org/caeda2/ontology#temIdeb"/>
+        <rdfs:domain rdf:resource="http://purl.org/caeda2/ontology#IDEB"/>
+        <rdfs:range rdf:resource="http://purl.org/caeda2/ontology#Estado"/>
         <rdfs:comment>Define estado de IDEB</rdfs:comment>
         <rdfs:label>temEstado</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temIdeb -->
+    <!-- http://purl.org/caeda2/ontology#temIdeb -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temIdeb">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#Estado"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#IDEB"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/caeda2/ontology#temIdeb">
+        <rdfs:domain rdf:resource="http://purl.org/caeda2/ontology#Estado"/>
+        <rdfs:range rdf:resource="http://purl.org/caeda2/ontology#IDEB"/>
         <rdfs:comment>Define relação com IDEB</rdfs:comment>
         <rdfs:label>temIdeb</rdfs:label>
     </owl:ObjectProperty>
@@ -77,96 +77,96 @@
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#daRegiao -->
+    <!-- http://purl.org/caeda2/ontology#daRegiao -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#daRegiao">
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temAno"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temCiclo"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNome"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNota"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temSigla"/>
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#daRegiao">
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temAno"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temCiclo"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temNome"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temNota"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temSigla"/>
         <rdfs:comment>Define de qual região é um Estado</rdfs:comment>
         <rdfs:label>daRegiao</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temAno -->
+    <!-- http://purl.org/caeda2/ontology#temAno -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temAno">
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temCiclo"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNome"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNota"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temSigla"/>
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#temAno">
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temCiclo"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temNome"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temNota"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temSigla"/>
         <rdfs:comment>Define o ano</rdfs:comment>
         <rdfs:label>temAno</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temAprendizado -->
+    <!-- http://purl.org/caeda2/ontology#temAprendizado -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temAprendizado">
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#temAprendizado">
         <rdfs:comment>Define aprendizado</rdfs:comment>
         <rdfs:label>temAprendizado</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temCiclo -->
+    <!-- http://purl.org/caeda2/ontology#temCiclo -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temCiclo">
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNome"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNota"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temSigla"/>
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#temCiclo">
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temNome"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temNota"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temSigla"/>
         <rdfs:comment>Define o ciclo de um IDB</rdfs:comment>
         <rdfs:label>temCiclo</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temEvolucao -->
+    <!-- http://purl.org/caeda2/ontology#temEvolucao -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temEvolucao">
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#temEvolucao">
         <rdfs:comment>DefineEvolucao</rdfs:comment>
         <rdfs:label>temEvolucao</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temFluxo -->
+    <!-- http://purl.org/caeda2/ontology#temFluxo -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temFluxo">
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#temFluxo">
         <rdfs:comment>defineFluxo</rdfs:comment>
         <rdfs:label>temFluxo</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNome -->
+    <!-- http://purl.org/caeda2/ontology#temNome -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNome">
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNota"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temSigla"/>
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#temNome">
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temNota"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temSigla"/>
         <rdfs:comment>Define o nome</rdfs:comment>
         <rdfs:label>temNome</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNota -->
+    <!-- http://purl.org/caeda2/ontology#temNota -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temNota">
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temSigla"/>
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#temNota">
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda2/ontology#temSigla"/>
         <rdfs:comment>Define a nota de um IDEB</rdfs:comment>
         <rdfs:label>temNota</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temSigla -->
+    <!-- http://purl.org/caeda2/ontology#temSigla -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#temSigla">
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda2/ontology#temSigla">
         <rdfs:comment>Define a sigla de um Estado</rdfs:comment>
         <rdfs:label>temSigla</rdfs:label>
     </owl:DatatypeProperty>
@@ -184,19 +184,19 @@
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#Estado -->
+    <!-- http://purl.org/caeda2/ontology#Estado -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#Estado">
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#IDEB"/>
+    <owl:Class rdf:about="http://purl.org/caeda2/ontology#Estado">
+        <owl:disjointWith rdf:resource="http://purl.org/caeda2/ontology#IDEB"/>
         <rdfs:comment>Representa estados do Brasil</rdfs:comment>
         <rdfs:label>Estado</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#IDEB -->
+    <!-- http://purl.org/caeda2/ontology#IDEB -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mateus/ontologies/2020/1/untitled-ontology-24#IDEB">
+    <owl:Class rdf:about="http://purl.org/caeda2/ontology#IDEB">
         <rdfs:comment>O Índice de Desenvolvimento da Educação Básica é um indicador criado pelo governo federal para medir a qualidade do ensino nas escolas públicas.</rdfs:comment>
         <rdfs:label>IDEB</rdfs:label>
     </owl:Class>
